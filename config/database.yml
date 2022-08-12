@@ -1,5 +1,5 @@
 <% branch_name = `git symbolic-ref HEAD 2>/dev/null`.chomp.sub('refs/heads/', '') %>
-<% repository_name = `git rev-parse --show-toplevel`.split('/').last.strip %>
+<% repository_name = "airlinereviews" %>
 
 default: &default
   adapter: postgresql
