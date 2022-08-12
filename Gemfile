@@ -60,3 +60,5 @@ gem "tzinfo-data", platforms: %i[mingw mswin x64_mingw jruby]
 gem "bcrypt", "~> 3.1.13"
 gem "pg"
 gem "react-rails"
+
+gem 'net-smtp', require: false
